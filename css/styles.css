@@ -1,0 +1,305 @@
+.Nav{
+    background-color: red;
+    margin-left: 100px;
+    width: 100px;  
+    
+}
+
+body{
+    margin-top: 30px;
+    background-color: #111;
+    padding-top: 40px;
+    width: auto;
+}
+
+#Nav-left {
+    float:left;
+    margin: 0;
+  }
+
+.Nav-text{
+    color: red;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height : auto;
+}
+.img-bor{
+    padding-top: 50px;
+    padding-left:20px;
+}
+.image{
+    padding-top: 0px;
+    padding-left:   0px;   
+    object-fit: cover;
+    display: block; 
+    width: auto;
+    height: 600px;
+    border: 5px solid #555; 
+}
+.img-responsive {
+    height: 10%;
+  }
+.row{
+    height:100px;
+    margin-right: 0px;
+
+}
+
+.col-size{
+    color: red;
+    padding-top: 102px;
+}   
+
+@media(max-width:400px){
+    .image{
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 240px;
+}
+    }
+
+
+.posi{
+    position: fixed-bottom;
+}
+.col-sm-4{
+    float: left;
+      width: 70%;
+      height: 270px;
+      clear: both;
+    }
+
+.nav-button{
+    padding-left : 30px;
+}
+
+.content{
+    padding-top: 40px;
+    margin-right: 0px;
+    border: 5px solid #555;
+    margin-top:50px;
+    
+}
+@media(max-width:1220px){
+.content{
+    border: 0px;
+}
+}
+
+@media(max-width:995px){
+.content{
+    padding-top: 40px;
+    margin-right: 0px;
+    margin-top:50px;
+    
+}
+}
+@media screen and (max-width:360px){
+    .content{
+        width: auto; 
+    }
+}
+.heading{
+    text-align: center;
+
+    margin-top: -15px;
+    
+}
+.heading2{
+    text-align:center;
+}
+.no-linespacing{
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.resume-content{
+    padding-left: 80px;
+    padding-top: 50px;
+    line-height: 40px;
+    margin-top: -15px;
+    
+}
+@media(max-width:490px){
+    .resume-content{
+        padding-left: 20px;
+        padding-top: 50px;
+        line-height: 40px;
+}
+    }
+@media(max-width:450px){
+    .resume-content{
+        padding-left: 0px;
+        padding-top: 50px;
+        line-height: 40px;
+}
+    }
+
+
+.heading3{
+    text-align : left;
+    padding-left: -50px;
+}
+@media(min-width:1220px){
+    .space{
+        padding-left: 80px;
+        margin-left:-40px;
+        /*padding-right: 40px;
+        margin-right: 0px;*/
+        white-space : nowrap;
+        margin-right: -60px;
+        
+    }
+}
+
+a{
+    padding-top: 10px;
+}
+@media(min-width:992px){
+.download{
+    position: absolute;
+    right: 0;
+    padding-left: 310px;
+    padding-right: 40px;
+}
+}
+@media screen and (min-device-width: 751px) and (max-device-width: 1000px){
+    .link-space{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.download{
+    
+    right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.details{
+    display:flex ;
+    
+}
+@media(min-width:1350px){
+.links{
+    padding-left: 250px;
+    line-height: 2.5;
+}
+}
+
+.icons{
+    line-height: 50px;
+    padding-left: 17px;
+    
+}
+
+.red{
+    color: #C3073f;;
+}
+
+.darkred{
+    color:#6f2232;
+}
+.bone{
+    color:#d1c6ad;
+}
+.pale{
+    color:#BBADA0;
+}
+.nickel{
+    color:#6c756b;
+}
+.babyblue{
+    color:#96c5f7;
+}
+.steel{
+    color:#6d8f9c;
+}
+.champagne{
+    color:#F6E7CB;
+}
+@media(min-width:992px){
+.options{
+    padding-left: 250px;
+}
+}
+.options{
+    padding-left: 220px;
+}
+@media(max-width:760px){
+.options{
+    padding-left: 0px
+}
+}
+.pages .page {
+    display: none;
+}
+
+.pages .page.is-active {
+    display: block;
+}
+
+
+.topgap{
+    padding-top: 50px;
+}
+
+/*
+.lightblue{
+    color:#303F9F;
+}
+
+.darkblue{
+    color:#334E68;
+}
+
+.bluegray{
+    color:#303F9F
+}
+
+.bluegraylight{
+    color:#627D98
+}
+.links{
+    padding-left: 90px;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    
+    
+}
+.col{
+    margin-top: 0px;
+}
+@media(max-width:400px){
+    .image {
+        height: 50%;
+        width:100%
+    }
+  }
+
+}
+
+.row {
+    height: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+ 
+  .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+*/

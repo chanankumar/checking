@@ -1,0 +1,22 @@
+.center{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-form{
+    color: whitesmoke;
+}
+.contact-form h2{
+    color: #96c5f7;
+}
+.contact-form input{
+    background-color:transparent;
+    color:whitesmoke;
+}
+.contact-form button{
+    background-color:transparent;
+    color: #96c5f7;
+    margin-top: 20px;
+}
+.contact-form textarea{
+    background-color:transparent;
+}

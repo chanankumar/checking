@@ -1,0 +1,116 @@
+.content-education{
+    height: 600px;
+    color: rgb(223, 177, 177);
+    padding-top: 40px;
+    margin-right: 0px;
+    border: 5px solid #555;
+    margin-top:50px;
+}
+@media screen and (max-width:768px){
+    .content-education{
+    height: 400px;
+    color: rgb(223, 177, 177);
+    padding-top: 40px;
+    margin-right: 0px;
+    border: 5px solid #555;
+    margin-top:50px;
+    }}
+@media screen and (max-width:272px){
+    .content-education{
+    height: auto;
+    color: rgb(223, 177, 177);
+    padding-top: 40px;
+    margin-right: 0px;
+    border: none;
+    margin-top:50px;
+    }}
+.text{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.text a{
+    color: gray;
+    cursor: pointer;
+}
+.tab-education{
+    display:none;
+}
+.tabs-education h3{
+    text-align: center;
+    color:#89cff0;
+}
+.education-text{
+    color: #DBD0C0;
+    line-height: 3rem;
+}
+@media screen and (max-width:425px) {
+    .education-text{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:390px) {
+    .education-text{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width:373px) {
+    .education-text{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:360px) {
+    .education-text{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width:242px) {
+    .education-text{
+        font-size: 2.5vw;
+    }
+}
+
+a:focus{
+    color: #DBD0C0;
+}
+.tab-education.is-active{
+    display: block;
+    padding : 20px 20px 20px 20px;
+}
+@media screen and (max-width:460px) {
+    .tab-education.is-active{
+        padding : 20px 10px 20px 10px;
+    }
+}
+@media screen and (max-width:440px) {
+    .tab-education.is-active{
+        padding : 20px 0 20px 5px;
+    }
+}
+.tab-education.is-active .row{
+    margin-top: 40px;
+}
+@media screen and (min-width:769px) {
+    .second-window{
+        margin-top: 49px;    
+        border: 5px solid #555;
+    }
+}
+@media screen and (max-width:768px) {
+    .second-window{
+        margin-top: 49px;    
+    }
+}
+.no-height{
+    line-height: 0.2rem;
+}
+.height-education{
+    line-height: 4.2rem;
+}
+
+.no-height-sse{
+    line-height: 0rem;
+}
+.height-education-sse{
+    margin-top:10px;
+    line-height: 4rem;
+}
